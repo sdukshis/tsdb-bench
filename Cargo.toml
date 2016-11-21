@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Pavel Filonov <pavel.filonov@kaspersky.com>"]
 
 [dependencies]
+bson = "0.3"
 time = "0.1"
 rustc-serialize = "0.3"
 rand = "0.3"
