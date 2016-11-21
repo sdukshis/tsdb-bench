@@ -4,16 +4,15 @@ version = "0.1.0"
 authors = ["Pavel Filonov <pavel.filonov@kaspersky.com>"]
 
 [dependencies]
-bson = "*"
 time = "0.1"
 rustc-serialize = "0.3"
-hyper = "0.9"
 rand = "0.3"
 log = "0.3"
 env_logger = "0.3"
-mongo_driver = "0.3.0"
+mongo_driver = "0.4"
 chrono = "0.2"
 postgres = "0.11"
+hyper = { version = "0.9", default-features = false}
 
 [profile.dev]
 opt-level = 0
